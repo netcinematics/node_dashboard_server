@@ -21,14 +21,18 @@ server side DEPLOY to VERCEL for React Dashboard (separate)
 ### DEPLOY
 vercel.json...
 https://jonathans199.medium.com/deploy-node-js-express-api-to-vercel-dbf4461795a5
+- commit, push
 - login, connect vercel to github
 - vercel, new project connect to repo
 - setup: other ./ 
 - add E N V V A R S
 > DEPLOY btn
 
-> REMEMBER: dev / prod urls
+### dev / prod URLs
 - dev:    http://localhost:8008
 - devapi: http://localhost:8008/news
-- prod: 
+- prod:   https://node-dashboard-server.vercel.app/
+- prod:   https://node-dashboard-server.vercel.app/news
+
+> REMEMBER: update prod urls in react
 
