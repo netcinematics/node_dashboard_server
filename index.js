@@ -14,7 +14,7 @@ const port = 8008;
 const { Configuration, OpenAIApi } = require("openai");
 
 app.get('/', (req, res) => {
-  res.send('Holo, wurldz8!');
+  res.send('Holo, wurldz88!');
 });
 
 app.get('/ai1', async (req, res) => {
