@@ -5,9 +5,12 @@ app.use(cors());
 const axios = require('axios');
 require('dotenv').config();
 const port = 8008;
-//INSTRUCTION:
-//npm run start
-//http://localhost:8008/news
+/*****************************INSTRUCTION:
+> npm run start
+- http://localhost:8008/news
+- https://node-dashboard-server.vercel.app/news
+- https://node-dashboard-server.vercel.app/ai1
+\*****************************/
 const { Configuration, OpenAIApi } = require("openai");
 
 app.get('/', (req, res) => {
