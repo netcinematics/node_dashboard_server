@@ -34,5 +34,14 @@ https://jonathans199.medium.com/deploy-node-js-express-api-to-vercel-dbf4461795a
 - prod:   https://node-dashboard-server.vercel.app/
 - prod:   https://node-dashboard-server.vercel.app/news
 
+- prodapi:https://node-dashboard-server.vercel.app/news
+
+> REMEMBER to deploy gh-pages: npm run deploy
+
+# OpenAI API
+
+> $ npm install openai
+
+
 > REMEMBER: update prod urls in react
 
