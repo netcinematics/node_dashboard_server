@@ -44,28 +44,29 @@ app.get('/ai1', async (req, res) => {
 app.get('/ai2', async (req, res) => {
   // platform.openai.com/docs/api-reference/chat/create
   // POST https://api.openai.com/v1/chat/completions
+  console.log("params", req.query.prompt)
   try{
-      const options = {
-          "model": "gpt-3.5-turbo",
-          "messages": [{"role": "user", "content": "Are you alive?"}],
-          "temperature": 0.44, max_tokens:44
-      }
-      const {data} = await axios.post('https://api.openai.com/v1/chat/completions', options,
-      {
-          headers: {
-              'Authorization': `Bearer ${process.env.OPENAI_API_KEY}`,
-              'Content-Type':'application/json'
-          }
-      }
-      )
-      res.json(data.choices);
+    const options = {
+        "model": "gpt-3.5-turbo",
+        "messages": [{"role": "user", "content": req.query.prompt}],
+        "temperature": 0.44, max_tokens:44
+    }
+    const {data} = await axios.post('https://api.openai.com/v1/chat/completions', options,
+    {
+        headers: {
+            'Authorization': `Bearer ${process.env.OPENAI_API_KEY}`,
+            'Content-Type':'application/json'
+        }
+    }
+    )
+    res.json(data.choices);
   } catch (error) {
-      console.error(error);
-      res.statusCode = 404;
-      res.setHeader('Content-Type', 'application/json');
-      res.json({data:'err22'});        
+    console.error(error);
+    res.statusCode = 404;
+    res.setHeader('Content-Type', 'application/json');
+    res.json({data:'err22'});        
   } 
-  });
+});
 
 app.get('/news', async (req, res) => {
 
