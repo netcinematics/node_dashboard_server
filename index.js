@@ -100,9 +100,9 @@ app.get('/news', async (req, res) => {
 // app.use('/api/crypto/', cryptoRouter);
 
 /******************************MINIMUM-CRYPTO */
-const Web3 = require('web3');
-const Contract = require('web3-eth-contract');
-const contractAbi = require('./contractAbi.json'); // replace with your actual contract ABI
+// const Web3 = require('web3');
+// const Contract = require('web3-eth-contract');
+// const contractAbi = require('./contractAbi.json'); // replace with your actual contract ABI
 
 app.get('/crypto1', async (req, res) => {
    console.log('crypto1')

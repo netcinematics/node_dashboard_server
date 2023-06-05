@@ -55,7 +55,8 @@ https://jonathans199.medium.com/deploy-node-js-express-api-to-vercel-dbf4461795a
 
 - EXAMPLE REQUIREMENTS:
 
-### A. Minter1 - React Minter (alchemy-web3)
+### A. Minter1 - React Minter (alchemy-web3) //DEPRECATED
+// Prefer SDK: https://www.npmjs.com/package/@alch/alchemy-web3
 const { createAlchemyWeb3 } = require("@alch/alchemy-web3");
 const web3 = createAlchemyWeb3(alchemyKey); //alchemy/URL/key
 window.contract = await new web3.eth.Contract(contractABI, contractAddress);
@@ -71,6 +72,9 @@ const txHash = await window.ethereum.request({
 });  
 
 ### B. Minter2 - CREATOR/Minter COMPONENT (alchemy-sdk, wagmi)
+//preferred : https://www.npmjs.com/package/alchemy-sdk
+//demo: 
+> npm i alchemy-sdk
 import { Contract } from "alchemy-sdk";
 import { useAccount, useSigner } from "wagmi";
 const { address, isDisconnected } = useAccount();
@@ -78,7 +82,8 @@ const { data: signer } = useSigner();
 const nftContract = new Contract(contractAddress, abi, signer);
 const mintTx = await nftContract.safeMint(tokenUri, address);
 
-### C. Minter 3 - Ai Prompt Minter (web3,web3-eth-contract)
+### C. Minter 3 - from Ai Prompt Minter (web3,web3-eth-contract)
+// 
 const Web3 = require('web3');
 const Contract = require('web3-eth-contract');
 const web3 = new Web3(`https://eth-mainnet.alchemyapi.io/v2/${alchemyApiKey}`);
