@@ -49,6 +49,14 @@ https://jonathans199.medium.com/deploy-node-js-express-api-to-vercel-dbf4461795a
 
 ## EXPERIMENTS
 
+
+### NODE FILE-SYSTEM. 
+ - O Dynamic Md File Routing
+ - O /libz route
+ 
+
+All crypto minters (depricated, on hold, move to graphQL, JSON datamodel, of markdown.)
+
 ### A. Minter1/React (refactor from React minter-starter-files)
 
 -  e.n.v, contract abi, utils, Minter.js

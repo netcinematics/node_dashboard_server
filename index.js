@@ -15,6 +15,10 @@ const port = 8008;
 \*****************************/
 const { Configuration, OpenAIApi } = require("openai");
 
+
+const { router: libzRouter } = require('./libz/');
+app.use('/libz/', libzRouter);
+
 app.get('/', (req, res) => {
   res.send('Holo, wurldz88!');
 });
