@@ -22,19 +22,13 @@ router.get('/tokenz/', (req, res) => {
 });
 
 router.get('/', (req, res) => {
+    console.log('1a')
     let lookup = (req && req.query && req.query.lookup)? req.query.lookup : "not found";
     if(lookup != "not found"){ //DYNAMIC-FILE-LOOKUP
         // fs.readFile('./libz/aWORDZa.md', 'utf8', (err, data) => {
         fs.readFile("./libz/"+lookup+".md", 'utf8', (err, data) => {
             if (err) {
-                fs.readFile('./libz/index.md', 'utf8', (err, indexdata) => {
-                    if (err) {
-                    console.error(err);
-                    return;
-                    }
-                    console.log("Default Index", lookup)
-                    res.send(indexdata);
-                })
+                next();
             } else {
 
                 console.log("DATASENT", lookup, data)
@@ -43,8 +37,22 @@ router.get('/', (req, res) => {
           });
     } else {
         console.log("DATASENT", "not found")
+        console.error(err);
         res.send("not found");
     }
+  });
+
+  router.get('/', (req, res) => {
+    console.log('2b')
+    fs.readFile('./libz/index.md', 'utf8', (err, indexdata) => {
+        if (err) {
+        console.error(err);
+        // return;
+        next();
+        }
+        console.log("Default Index", lookup)
+        res.send(indexdata);
+    })
   });
 
 module.exports = {router};
