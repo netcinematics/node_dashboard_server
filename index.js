@@ -13,7 +13,7 @@ const port = 8008;
 - https://node-dashboard-server.vercel.app/news
 - https://node-dashboard-server.vercel.app/ai1
 \*****************************/
-const { Configuration, OpenAIApi } = require("openai");
+// const { Configuration, OpenAIApi } = require("openai");
 
 
 const { router: libzRouter } = require('./libz/');
@@ -139,17 +139,11 @@ app.get('/crypto1', async (req, res) => {
   
   // mintTokens('0x123...', '1000000000000000000'); // replace with the address to mint tokens to and the amount to mint
   
-
-
-
-
   res.setHeader('Content-Type', 'application/json');
   res.statusCode = 200;
   res.json({data:'crypto1'});
 
-
 });
-
 
 app.listen(port, () => {
   console.log(`Server at http://localhost:${port}`);
