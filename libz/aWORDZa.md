@@ -8,13 +8,9 @@
 
 A fascinating **TOKEN-ENGINE**, running all_words_of_humanity, for Social_Phrases. It did not turn out as expected. 
 
-<br>
-
 ---
 
 # CORE-TOKENZ
-
-<br>
 
 - ~aAWAa~
 - ~aWISDOa~
