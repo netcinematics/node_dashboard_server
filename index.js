@@ -12,6 +12,9 @@ const port = 8008;
 - http://localhost:8008/news
 - https://node-dashboard-server.vercel.app/news
 - https://node-dashboard-server.vercel.app/ai1
+url: 'https://node-dashboard-server.vercel.app/libz/tokenz/', //prod url
+url: `https://node-dashboard-server.vercel.app/libz/tokenz/${lookupTitle}`, //prod url
+url: `https://node-dashboard-server.vercel.app/libz/tokenz/aWORDZa`, //prod url
 \*****************************/
 // const { Configuration, OpenAIApi } = require("openai");
 
