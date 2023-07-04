@@ -69,10 +69,10 @@ function serveDynamicTokenz(res, tokenTitle, tokenNumz){
 
 router.get('/tokenz/', (req, res) => {
     console.log('2b',req.query.lookup, req.params.tokens)
-    if(!aWORDZa_DATA){if (err) { console.error(err); return; }}
-    res.send(aWORDZa_DATA)
-    // if(!index_DATA_1){if (err) { console.error(err); return; }}
-    // res.send(index_DATA_1) //works
+    // if(!aWORDZa_DATA){if (err) { console.error(err); return; }}
+    // res.send(aWORDZa_DATA)
+    if(!index_DATA_1){if (err) { console.error(err); return; }}
+    res.send(index_DATA_1) //works
     console.log('tokenz!')
     // fs.readFile('./libz/indexTokenz.md', 'utf8', (err, indexdata) => {
     //     if (err) { console.error(err); return; }
