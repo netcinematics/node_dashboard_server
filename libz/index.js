@@ -7,7 +7,7 @@ const fs = require('fs');
 
 let index_DATA_1 = require('./cardTokenz2.json');
 let token_index = require('./token_index.json');
-let token_aWORDZa = require('./token_aWORDZa.json');
+// let token_aWORDZa = require('./token_aWORDZa.json');
 // let aWORDZa_DATA = require('./aWORDZa.md')
 // import info from `./package.json`
 
