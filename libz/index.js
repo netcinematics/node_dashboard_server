@@ -7,7 +7,6 @@ const fs = require('fs');
 
 let index_DATA_1 = require('./cardTokenz2.json');
 let token_index = require('./token_index.json');
-// let token_aWORDZa = require('./token_aWORDZa.json');
 // let aWORDZa_DATA = require('./aWORDZa.md')
 // import info from `./package.json`
 
@@ -85,21 +84,21 @@ router.get('/tokenz/', (req, res) => {
 
 });
 
-// router.get('/tokenz/aWORDZa/', (req, res) => {
-//     console.log('2b',req.query.lookup, req.params.tokens)
-//     if(!token_aWORDZa){if (err) { console.error(err); return; }}
-//     res.send(token_aWORDZa)
-//     // if(!index_DATA_1){if (err) { console.error(err); return; }}
-//     // res.send(index_DATA_1) //works
-//     console.log('tokenz!')
-//     // fs.readFile('./libz/indexTokenz.md', 'utf8', (err, indexdata) => {
-//     //     if (err) { console.error(err); return; }
-//     //     debugger;
-//     //     res.send(indexdata);
-//     // })
+router.get('/tokenz/aWORDZa/', (req, res) => {
+    console.log('2b',req.query.lookup, req.params.tokens)
+    if(!token_index){if (err) { console.error(err); return; }}
+    res.send(token_index)
+    // if(!index_DATA_1){if (err) { console.error(err); return; }}
+    // res.send(index_DATA_1) //works
+    console.log('tokenz!')
+    // fs.readFile('./libz/indexTokenz.md', 'utf8', (err, indexdata) => {
+    //     if (err) { console.error(err); return; }
+    //     debugger;
+    //     res.send(indexdata);
+    // })
 
 
-// });
+});
 
 // router.get('/', (req, res) => {
 //     console.log('1b',req.query.lookup)
