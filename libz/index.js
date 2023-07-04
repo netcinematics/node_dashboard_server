@@ -6,7 +6,7 @@ const router = express.Router();
 const fs = require('fs');
 
 let index_DATA_1 = require('./cardTokenz2.json');
-let aWORDZa_DATA = require('./libz/aWORDZa.md')
+// let aWORDZa_DATA = require('./libz/aWORDZa.md')
 // import info from `./package.json`
 
 router.get('/lookup/:tokenz', (req, res) => { //DYNAMIC-TOKEN-SETS_1
