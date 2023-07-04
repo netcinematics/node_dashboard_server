@@ -22,8 +22,9 @@ url: `https://node-dashboard-server.vercel.app/libz/tokenz/aWORDZa`, //prod url
 const { router: libzRouter } = require('./libz/');
 app.use('/libz/', libzRouter);
 
+
 app.get('/', (req, res) => {
-  res.send('Holo, wurldz88!');
+  res.send('Holo, wurldz8888!');
 });
 
 app.get('/ai1', async (req, res) => {
@@ -51,6 +52,7 @@ app.get('/ai1', async (req, res) => {
 });
 
 app.get('/ai2', async (req, res) => {
+
   // platform.openai.com/docs/api-reference/chat/create
   // POST https://api.openai.com/v1/chat/completions
   console.log("params", req.query.prompt)
