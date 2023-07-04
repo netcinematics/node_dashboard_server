@@ -6,7 +6,7 @@ const router = express.Router();
 const fs = require('fs');
 
 let index_DATA_1 = require('./cardTokenz2.json');
-// let token_index = require('./token_index.json');
+let token_index = require('./token_index.json');
 // let aWORDZa_DATA = require('./aWORDZa.md')
 // import info from `./package.json`
 
@@ -70,10 +70,10 @@ function serveDynamicTokenz(res, tokenTitle, tokenNumz){
 
 router.get('/tokenz/', (req, res) => {
     console.log('2b',req.query.lookup, req.params.tokens)
-    // if(!aWORDZa_DATA){if (err) { console.error(err); return; }}
-    // res.send(aWORDZa_DATA)
-    if(!index_DATA_1){if (err) { console.error(err); return; }}
-    res.send(index_DATA_1) //works
+    if(!token_index){if (err) { console.error(err); return; }}
+    res.send(token_index)
+    // if(!index_DATA_1){if (err) { console.error(err); return; }}
+    // res.send(index_DATA_1) //works
     console.log('tokenz!')
     // fs.readFile('./libz/indexTokenz.md', 'utf8', (err, indexdata) => {
     //     if (err) { console.error(err); return; }
