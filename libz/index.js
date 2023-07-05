@@ -76,7 +76,7 @@ router.get('/cardz/', (req, res) => {
     // console.log('cardz!')
     // if(!index_DATA_1){if (err) { console.error(err); return; }}
     // res.send(index_DATA_1) //works
-    fs.readFile('./libz/index.md', 'utf8', (err, indexdata) => {
+    fs.readFile('./index.md', 'utf8', (err, indexdata) => {
         if (err) { console.error(err); return; }
         // debugger;
         res.send(indexdata);
