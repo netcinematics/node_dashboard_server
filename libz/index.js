@@ -68,10 +68,25 @@ function serveDynamicTokenz(res, tokenTitle, tokenNumz){
 
 }
 
+
+router.get('/cardz/', (req, res) => {
+    console.log('4b',req.query.lookup)
+    if(!token_index){if (err) { console.error(err); return; }}
+    res.send(token_index) //also works
+    // if(!index_DATA_1){if (err) { console.error(err); return; }}
+    // res.send(index_DATA_1) //works
+    console.log('cardz!')
+    // fs.readFile('./libz/indexTokenz.md', 'utf8', (err, indexdata) => {
+    //     if (err) { console.error(err); return; }
+    //     debugger;
+    //     res.send(indexdata);
+    // })
+});
+
 router.get('/tokenz/', (req, res) => {
     console.log('2b',req.query.lookup, req.params.tokens)
     if(!token_index){if (err) { console.error(err); return; }}
-    res.send(token_index)
+    res.send(token_index) //also works
     // if(!index_DATA_1){if (err) { console.error(err); return; }}
     // res.send(index_DATA_1) //works
     console.log('tokenz!')
@@ -80,8 +95,6 @@ router.get('/tokenz/', (req, res) => {
     //     debugger;
     //     res.send(indexdata);
     // })
-
-
 });
 
 // router.get('/', (req, res) => {
