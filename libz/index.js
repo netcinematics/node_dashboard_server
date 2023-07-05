@@ -77,7 +77,9 @@ router.get('/cardz/', (req, res) => {
     // if(!index_DATA_1){if (err) { console.error(err); return; }}
     // res.send(index_DATA_1) //works
     fs.readFile('./index.md', 'utf8', (err, indexdata) => {
-        if (err) { console.error(err); return; }
+        if (err) { console.error(err);
+            res.send("server error")
+        }
         // debugger;
         res.send(indexdata);
     })
