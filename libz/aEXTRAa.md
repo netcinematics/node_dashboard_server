@@ -13,7 +13,9 @@ PRACTICES that lead to AXI (actual_extra_intelligence), and MAX_PLASTICITY.
 
 Whenever the intellect of all_human_mind is MEASURED, one option is to COUNT_ACTZ.
 
-Another measure_of_aEXTRa is to COUNT_WORDZ. Also, on the potentially infinite spectrum,
+Another measure_of_aEXTRAa is to COUNT_WORDZ. Another measure is to COUNT_VIEWZ. 
+
+Also, on the potentially infinite spectrum,
 
 awareness of all_human_mind, can be generalized to: aLIMITa and aEXTRAa.
 
@@ -44,6 +46,7 @@ Practices to gain actual_extra_intelligence.
 - aPRACTICaQUERIOa or actual_practice_of_questions
 - aPRACTICaSEEKa or actual_practice_of_seeking
 - aPRACTICaWORDZa or actual_practice_of_clarifying_words. 
+- aPRACTICaPRIZMa or actual_practice_of_all_human_prizm
 - aPRACTICaWIZDOa or actual_practice_of_wizdom
 - aPRACTICaAWA or actual_practice_of_awareness
 - aPRACTICaEXTRA or actual_practice_of_everything_extra.
