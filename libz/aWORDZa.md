@@ -1,12 +1,35 @@
 # `~aWORDZa~`
 
-> unexplored_chazm_of_concepts, accessible by use of systematic NAMING_CONVENTION, with AND highly articulated SYNTAX, brief and self-descriptive, making it easy to learn.
+Is a three things combined, in a simple way, for great results.
 
-## Taxonomy & Ontology
+1) aWORDZa is a self-generative & self-descriptive txt_engine,
+2) a system_of_wordz_for_all_conceptz, with shortest_words & fewest_letters
+3) maximum_clarity & minimum_confuzion
+4) a linquistic plasticity mechanism
+5) in the form of aWORDaGAMEa
 
-#### SURPRISING RESULTS:
+---
 
-A fascinating **TOKEN-ENGINE**, running all_words_of_humanity, for Social_Phrases. It did not turn out as expected. 
+## OVERVIEW
+
+> An unexplored_chazm_of_concepts, awaits before us. Concepts actually beyond us. Shrouded by actual_dark of unawareness. Newly accessible, for anyone, by a simple word_trick. aWORDZa uses NAMING_CONVENTIONS, from software engineering, applied to the English language - to create an Enhanced_English language. 
+
+1) Easy to Learn : with self-descriptive syntax. 
+
+2) Forever Generative : as anyone can name any concept. 
+
+3) Linguistic Qualities : that appear to postitively affect actual_mental_plasticity.
+
+4) PRACTICES that lead to AXI (actual_extra_intelligence), and MAX_PLASTICITY.
+
+
+## SURPRISING RESULTS:
+
+A fascinating TOKEN_ENGINE of TXT_TOKENZ. Systematically runs all_words_of_humanity. Searching for Social_Phrases. And the METADATA (for artificial intelligence), that describes CONCEPTZ_beneath_WORDZ. It did not turn out as expected... 
+
+Quite by accident, it describes actual_non_visible_pryzm_of_all_human_mind.
+
+A Taxonomy & Ontology exist. 
 
 ---
 
